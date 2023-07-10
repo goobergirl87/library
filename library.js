@@ -7,9 +7,14 @@ function Book(title, author, pages, read) {
     this.read = read
   }
 
+const newBook = document.querySelector('newBookForm');
+newBookForm.addEventListener('click', openForm)
 
-  
-  function addBookToLibrary() {
+function openForm() {
+
+}
+
+function addBookToLibrary() {
     
   }
 
