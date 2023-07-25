@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>library</title>
     <link rel="stylesheet" href="library.css">
+    <script src="library.js" defer></script>
+
 </head>
 <body>
 <header></header>
 <main>
-    <button id="newBookForm">NEW BOOK</button>
-    <form>
+    <button>NEW BOOK</button>
+    <form class="new-Book-Form">
         <div class="formbox">
             <label for="title">title</label>
             <input type="text" id="title" placeholder="title">
@@ -27,12 +29,13 @@
             <label for="read">Have you read the book?</label>
             <select id="read" name="read">
             <option value="read">Read</option>
-            <option value="notRead">Not read</option>
+            <option value="not read">Not read</option>
             </select>
         </div>
         <div class="formbox">
             <button id="btn">Click to add</button>
         </div>
+
     </form>
 </main>
 <footer></footer>
