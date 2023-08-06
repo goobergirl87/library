@@ -41,6 +41,10 @@ const displayBook = function (object) {
   const pages = document.createElement('h4');
   pages.textContent = object.pages;
   bookDiv.appendChild(pages);
+
+  const read = document.createElement('button');
+  read.textContent = "read";
+  bookDiv.appendChild(read);
 };
 
 newBook.addEventListener("submit", addBookToLibrary)
