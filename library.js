@@ -21,6 +21,7 @@ function addBookToLibrary() {
   const read = document.querySelector("#read");
   let newBook = new Book (title.value, author.value, pages.value, read.value);
   myLibrary.push(newBook);
+  displayBook(newBook);
   title.value = "";
   author.value = "";
   pages.value = "";
