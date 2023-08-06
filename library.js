@@ -29,3 +29,5 @@ function addBookToLibrary() {
 const displayBook = function (object) {
 
 };
+
+newBook.addEventListener("submit", addBookToLibrary)
