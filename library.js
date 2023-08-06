@@ -52,6 +52,8 @@ const displayBook = function (object) {
   } else {
   read.style.backgroundColor = '#808080';
   };
+
+  bookDiv.setAttribute('id', myLibrary.indexOf(object));
 };
 
 newBook.addEventListener("submit", addBookToLibrary)
