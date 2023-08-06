@@ -1,4 +1,5 @@
 let library = [];
+const mainContent = document.querySelector(".main-content");
 const newBook = document.querySelector(".new-book");
 
 function showHideForm() { 
