@@ -29,6 +29,18 @@ function addBookToLibrary() {
 const displayBook = function (object) {
   const bookDiv = document.createElement("div");
   bookDiv.classList.add("book");
+
+  const title = document.createElement('h3');
+  title.textContent = object.title;
+  bookDiv.appendChild(title);
+
+  const author = document.createElement('h4');
+  author.textContent = object.author;
+  bookDiv.appendChild(author);
+
+  const pages = document.createElement('h4');
+  pages.textContent = object.pages;
+  bookDiv.appendChild(pages);
 };
 
 newBook.addEventListener("submit", addBookToLibrary)
