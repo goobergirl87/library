@@ -63,3 +63,34 @@ h1 {
 	font-variant: normal;
 	text-transform: uppercase;	
 }
+
+body {
+    background-color: #a7e2ff;
+}
+
+.newBookBtn {
+	color: #a7e2ff;
+    background-color: #FFF6C0;
+	font-size: 21px; 
+	line-height: 21px; 
+	padding: 13px; 
+	border-radius: 12px; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold; 
+	text-decoration: none; 
+	font-style: normal; 
+	font-variant: normal; 
+	text-transform: none; 
+	border: 2px solid rgb(255, 246, 192); 
+	display: inline-block;
+}
+
+
+.newBookBtn:hover {
+	background: #fff2a9;
+	border: 2px solid #fff2a9; 
+	;
+}
+
+
+
