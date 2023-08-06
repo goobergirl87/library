@@ -25,3 +25,7 @@ function addBookToLibrary() {
   pages.value = "";
   read.value = "";
 }
+
+const displayBook = function (object) {
+
+};
