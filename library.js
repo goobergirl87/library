@@ -14,6 +14,7 @@ function Book(title, author, pages, read) {
   }
 
 function addBookToLibrary() {
+  event.preventDefault();
   const title = document.querySelector("#title");
   const author = document.querySelector("#author");
   const pages = document.querySelector("#pages");
