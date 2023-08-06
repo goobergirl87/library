@@ -60,6 +60,11 @@ const displayBook = function (object) {
   bookDiv.appendChild(addDeleteButton);
 
   mainContent.appendChild(bookDiv);
+
+  addDeleteButton.addEventListener("click", () => {
+    mainContent.removeChild(bookDiv);
+    myLibrary.splice(bookDiv, 1);
+    });
 };
 
 newBook.addEventListener("submit", addBookToLibrary)
