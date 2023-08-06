@@ -61,6 +61,8 @@ const displayBook = function (object) {
   addDeleteButton.textContent = "delete";
   bookDiv.appendChild(addDeleteButton);
 
+  console.log(object);
+
   mainContent.appendChild(bookDiv);
 
   addDeleteButton.addEventListener("click", () => {
