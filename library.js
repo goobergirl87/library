@@ -1,4 +1,5 @@
 let library = [];
+const newBook = document.querySelector(".new-book");
 
 function showHideForm() { 
   newBook.classList.toggle("hide");
