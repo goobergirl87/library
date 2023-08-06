@@ -65,6 +65,16 @@ const displayBook = function (object) {
     mainContent.removeChild(bookDiv);
     myLibrary.splice(bookDiv, 1);
     });
+
+  read.addEventListener("click", () => {
+    if (!read.dataset.clicked) {
+      read.setAttribute("data-clicked", "true");
+      read.style.backgroundColor = '#008000';
+    } else {
+      read.removeAttribute("data-clicked");
+      read.style.backgroundColor = '#808080';
+    }
+  });
 };
 
 newBook.addEventListener("submit", addBookToLibrary)
