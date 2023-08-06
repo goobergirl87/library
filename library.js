@@ -58,6 +58,8 @@ const displayBook = function (object) {
   const addDeleteButton = document.createElement('button');
   addDeleteButton.textContent = "delete";
   bookDiv.appendChild(addDeleteButton);
+
+  mainContent.appendChild(bookDiv);
 };
 
 newBook.addEventListener("submit", addBookToLibrary)
