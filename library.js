@@ -45,6 +45,13 @@ const displayBook = function (object) {
   const read = document.createElement('button');
   read.textContent = "read";
   bookDiv.appendChild(read);
+
+  if(object.read === "read") {
+    read.setAttribute("data-clicked", "true");
+    read.style.backgroundColor = '#008000';
+  } else {
+  read.style.backgroundColor = '#808080';
+  };
 };
 
 newBook.addEventListener("submit", addBookToLibrary)
