@@ -92,7 +92,11 @@ h3 {
 }
 
 body {
-    background-color: #a7e2ff;
+	background-color: #fff9d4;
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	justify-content: flex-start;
 }
 
 .newBookBtn {
