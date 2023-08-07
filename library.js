@@ -59,6 +59,7 @@ const displayBook = function (object) {
   bookDiv.setAttribute('id', myLibrary.indexOf(object));
 
   const addDeleteButton = document.createElement('button');
+  addDeleteButton.classList.add("deleteBtn");
   addDeleteButton.textContent = "delete";
   bookDiv.appendChild(addDeleteButton);
 
