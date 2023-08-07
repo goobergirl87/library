@@ -1,4 +1,4 @@
-The library is a part of the java script specialisation course of The Odin Project. 
+The LIBRARY is a part of the java script specialisation course of The Odin Project. 
 I learned working with objects and did some strenghtening on my function skills. I learn more and more the dev tools to love. 
 At this stage it is not yet required to add a storage function. I will come back to this project. 
 
