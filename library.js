@@ -42,7 +42,7 @@ const displayBook = function (object) {
   bookDiv.appendChild(author);
 
   const pages = document.createElement('h4');
-  pages.textContent = object.pages;
+  pages.textContent = (object.pages +" pages");
   bookDiv.appendChild(pages);
 
   const read = document.createElement('button');
