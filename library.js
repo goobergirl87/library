@@ -46,6 +46,7 @@ const displayBook = function (object) {
   bookDiv.appendChild(pages);
 
   const read = document.createElement('button');
+  read.classList.add("read");
   read.textContent = "read";
   bookDiv.appendChild(read);
 
