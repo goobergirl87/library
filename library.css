@@ -212,3 +212,23 @@ form {
 	background: #ade4ff;
 }
 
+.deleteBtn {
+	padding: 5px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-size: 14px;
+	margin: 2px 0px;
+	background: #dadada;
+}
+
+.deleteBtn:hover {
+	background: #c6c6c6;
+}
+
+footer {
+	display: flex;
+	margin-top: auto;
+	background-color: #a7e2ff;
+	justify-content: flex-end;
+}
