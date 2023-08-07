@@ -148,7 +148,7 @@ form {
 	border-radius: 7px;
 	background: #FFF6C0;
 	padding: 25px;
-	margin: 25px;
+	justify-content: center;
   }
 
   .formbox {
