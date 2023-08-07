@@ -79,13 +79,6 @@ h3 {
 
 h4 {
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 14px;
-	color: #a7e2ff;
-	margin-top: 60px;
-}
-
-h3 {
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	color: #000000;
 	padding: 5px;
@@ -114,7 +107,6 @@ body {
 	text-transform: none; 
 	border: none; 
 	display: inline-block;
-	margin-top: 40px;
 	cursor: pointer;
 	align-self: center;
 	margin: 60px 50px;
@@ -133,7 +125,6 @@ header {
 main {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
 }
 
 label {
@@ -146,16 +137,15 @@ label {
 form {
 	display: flex;
 	border-radius: 7px;
-	background: #FFF6C0;
 	padding: 25px;
 	justify-content: center;
-  }
+}
 
-  .formbox {
+.formbox {
 	margin: 0px 10px;
-  }
+}
 
-  input[type=text], select {
+input[type=text], select {
 	color: #41C0FF;
 	padding: 12px 20px;
 	display: inline-block;
@@ -175,7 +165,7 @@ form {
 	border-radius: 4px;
 	cursor: pointer;
 	font-size: 18px;
-  }
+}
 
 #btn:hover {
 	background: #96dcff;
